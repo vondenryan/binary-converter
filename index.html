@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binário Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Tradutor de Binário</h1>
+            <p>Converta textos para binário e vice-versa instantaneamente.</p>
+        </header>
+
+        <section class="converter-box">
+            <div class="field">
+                <label for="text-input">Texto Comum</label>
+                <textarea id="text-input" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+
+            <div class="actions">
+                <button id="btn-to-binary" class="btn primary">Texto para Binário ↓</button>
+                <button id="btn-to-string" class="btn secondary">Binário para Texto ↑</button>
+                <button id="btn-clear" class="btn outline">Limpar Tudo</button>
+            </div>
+
+            <div class="field">
+                <label for="binary-input">Código Binário</label>
+                <textarea id="binary-input" placeholder="01001111 01101100 01100001..."></textarea>
+            </div>
+        </section>
+    </main>
+
+    <script src="converter.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
