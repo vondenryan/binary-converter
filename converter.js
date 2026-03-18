@@ -22,6 +22,10 @@ function decimal_to_binary(decimal) {
         decimal = parseInt(decimal / 2)
     }
 
+    while(binary.length < 8) {
+        binary = "0" + binary
+    }
+
     return binary
 }
 
