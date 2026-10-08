@@ -164,14 +164,6 @@ Output: "01001000 01100101 01101100 01101100 01101111"
 
 ---
 
-## 🎨 Composição do Repositório
-
-- **CSS:** 38.3% - Estilização e design responsivo
-- **JavaScript:** 37.6% - Lógica de conversão e interação
-- **HTML:** 24.1% - Estrutura e semântica
-
----
-
 ## 📖 Referências
 
 A conversão binária é fundamental em computação, pois os computadores trabalham nativamente com sistema binário. Cada caractere é representado por um número em binary, permitindo armazenamento e transmissão eficiente de dados.
